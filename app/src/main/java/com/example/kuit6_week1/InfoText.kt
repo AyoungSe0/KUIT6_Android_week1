@@ -1,4 +1,4 @@
-package com.example.kuit6_week1.ui.theme
+package com.example.kuit6_week1
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
