@@ -81,21 +81,16 @@ fun CardAssignment(modifier: Modifier = Modifier) {
                     .padding(top = 6.dp, bottom = 8.dp)
             )
 
-            Column(
-                modifier = Modifier.fillMaxSize(),
-                verticalArrangement = Arrangement.Top
-            ){
-                Text(
-                    text = "이름 : 서아영",
-                    fontSize = 10.sp, // sp: Scale-Independent Pixels, 레이아웃을 정의할 때 텍스트의 크기를 지정하기 위해 사용
-                    modifier = Modifier
-                        .padding(bottom = 8.dp)
-                        .height(12.dp)
-                )
-                InfoText("학번 : 202411302")
-                InfoText("학과 : 컴퓨터공학부")
-                InfoText("생년월일 : 2005/10/09")
-            }
+            Text(
+                text = "이름 : 서아영",
+                fontSize = 10.sp, // sp: Scale-Independent Pixels, 레이아웃을 정의할 때 텍스트의 크기를 지정하기 위해 사용
+                modifier = Modifier
+                    .padding(bottom = 8.dp)
+                    .height(12.dp)
+            )
+            InfoText("학번 : 202411302")
+            InfoText("학과 : 컴퓨터공학부")
+            InfoText("생년월일 : 2005/10/09")
         }
     }
 }
