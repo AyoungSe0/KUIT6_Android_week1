@@ -59,7 +59,7 @@ fun CardAssignment(modifier: Modifier = Modifier) {
             .padding(all = 10.dp)
     ) {
         Column(
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxWidth()
         ){
             Row(
                 modifier = Modifier.fillMaxWidth(),
